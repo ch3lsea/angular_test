@@ -33,7 +33,9 @@ module.exports = function(grunt) {
                     "bootstrap/dist/fonts/glyphicons-halflings-regular.ttf",
                     "bootstrap/dist/fonts/glyphicons-halflings-regular.woff",
                     "bootstrap/dist/fonts/glyphicons-halflings-regular.woff2",
-                    "bootstrap/dist/js/bootstrap.min.js"
+                    "bootstrap/dist/js/bootstrap.min.js",
+                    "angular-translate/dist/angular-translate.min.js",
+                    "angular-translate-loader-url/angular-translate-loader-url.min.js"
                 ],
                 "dest": "public/vendor/"
             },
@@ -49,7 +51,7 @@ module.exports = function(grunt) {
                 expand: true,
                 cwd: "client",
                 src: [
-                    "views/sample.html"
+                    "views/userinfo.html"
                 ],
                 "dest": "public/"
             }
