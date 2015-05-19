@@ -1,8 +1,10 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /*padding: 50px;*/
+  font-family: 'Libre Baskerville', serif;
+  background-color: #595659;
+  color: #fff;
 }
 
-a {
-  color: #00B7FF;
+.jumbotron {
+  background-color: #777378;
 }

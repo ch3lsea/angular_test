@@ -1,10 +1,12 @@
-<div class="container" ng-controller="langController">
-    <div class="col-md-offset-2">
-        <h1>{{'HEADING' | translate}}</h1>
-        <p>{{'PARA' | translate}}</p>
-    </div>
-    <div class="col-md-offset-2">
-        <button ng-click="changeLanguage('en')" translate="BUTTON_TEXT_EN" class="btn btn-primary">English</button>
-        <button ng-click="changeLanguage('de')" translate="BUTTON_TEXT_DE" class="btn btn-info">German</button>
+<div class="container">
+    <div class="jumbotron text-center" ng-controller="langController">
+        <div>
+            <h1>{{'HEADING' | translate}}</h1>
+            <p>{{'PARA' | translate}}</p>
+        </div>
+        <div>
+            <button ng-click="changeLanguage('en')" translate="BUTTON_TEXT_EN" class="btn btn-primary">English</button>
+            <button ng-click="changeLanguage('de')" translate="BUTTON_TEXT_DE" class="btn btn-info">German</button>
+        </div>
     </div>
 </div>
