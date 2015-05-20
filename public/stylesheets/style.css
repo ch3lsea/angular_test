@@ -1,10 +1,49 @@
 body {
   /*padding: 50px;*/
   font-family: 'Libre Baskerville', serif;
-  background-color: #595659;
+  background-color: #141A26;
   color: #fff;
 }
 
+a {
+  color: #25272e;
+}
+
 .jumbotron {
-  background-color: #777378;
+  background-color: #3E4759;
+}
+
+.tabT {
+  background-color: #333740;
+  height: 40px;
+  border-bottom: 1px solid #25272e;
+  font-size: 24px;
+  padding-top: 2px;
+  padding-left: 5px;
+}
+
+.tabT:hover {
+  background-color: #414652;
+  border: 1px solid #4d5160;
+}
+
+.one {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+ul {
+  font-size: 18px;
+}
+
+.tut {
+  background-color: #6C6F73;
+  border-radius: 5px;
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+.tut h1 {
+  padding-left: 5px;
+  padding-top: 5px;
 }
