@@ -1,8 +1,8 @@
 body {
-  /*padding: 50px;*/
   font-family: 'Libre Baskerville', serif;
   background-color: #141A26;
   color: #fff;
+  margin-bottom: 150px;
 }
 
 a {
@@ -46,4 +46,8 @@ ul {
 .tut h1 {
   padding-left: 5px;
   padding-top: 5px;
+}
+
+.tabC {
+  padding: 10px 0;
 }
